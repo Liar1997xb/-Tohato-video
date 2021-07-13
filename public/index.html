@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>
+        <%= htmlWebpackPlugin.options.isProd ? '' : 'Tohato-video' %>
+    </title>
+
+    <% if(htmlWebpackPlugin.options.isProd){ %>
+        <link rel="stylesheet" href="https://cdn.staticfile.org/vant/2.12.5/index.min.css">
+        <link rel="stylesheet" href="https://cdn.staticfile.org/normalize/8.0.1/normalize.min.css">
+
+        <script src="https://cdn.staticfile.org/vue/2.5.22/vue.min.js"></script>
+        <script src="https://cdn.staticfile.org/vue-router/3.0.1/vue-router.min.js"></script>
+        <script src="https://cdn.staticfile.org/axios/0.18.0/axios.min.js"></script>
+        <script src="https://cdn.staticfile.org/vuex/2.5.0/vuex.min.js"></script>
+        <script src="https://cdn.staticfile.org/vant/2.12.5/vant.min.js"></script>
+        <script src="https://cdn.staticfile.org/fastclick/1.0.6/fastclick.min.js"></script>
+
+        <% } %>
+</head>
+
+<body>
+    <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+      properly without JavaScript enabled. Please enable it to
+      continue.</strong>
+  </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+</body>
+
+</html>

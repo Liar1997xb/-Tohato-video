@@ -1,0 +1,30 @@
+{
+  "id": "2514195",
+  "name": "t-",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5482950",
+      "name": "静音",
+      "font_class": "jingyin",
+      "unicode": "e669",
+      "unicode_decimal": 58985
+    },
+    {
+      "icon_id": "11370368",
+      "name": "扬声器",
+      "font_class": "xingzhuang",
+      "unicode": "e6a5",
+      "unicode_decimal": 59045
+    },
+    {
+      "icon_id": "17971524",
+      "name": "消 息",
+      "font_class": "xiaoxi",
+      "unicode": "e6d6",
+      "unicode_decimal": 59094
+    }
+  ]
+}
