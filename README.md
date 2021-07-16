@@ -1,6 +1,6 @@
 # Tohato-video
 
-模仿开眼app的ui界面，采用750px设计尺寸并且采取`flexible.js`+`rem`的方式进行响应式布局
+模仿开眼app的ui界面，采用750px设计尺寸并且采取`flexible.js`+`rem`的方式进行自适应布局
 
 后端接口：https://baobab.kaiyanapp.com
 
